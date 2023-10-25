@@ -20,5 +20,4 @@ public class Exam15_singleton {
 	static Exam15_singleton getInstance() {
 		return singleton;
 	}
-
 }
