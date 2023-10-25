@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="01_start"/>
+	<classpathentry kind="src" path="02_variable"/>
+	<classpathentry kind="src" path="03_operater"/>
+	<classpathentry kind="src" path="04_casting"/>
+	<classpathentry kind="src" path="05_input"/>
+	<classpathentry kind="src" path="06_conditional"/>
+	<classpathentry kind="src" path="07_repeat"/>
+	<classpathentry kind="src" path="08_array"/>
+	<classpathentry kind="src" path="09_method"/>
+	<classpathentry kind="src" path="10_class"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
