@@ -6,8 +6,4 @@ public class Exam17_staticFinal {
 	static final double EARTH_AREA = 4 * Math.PI * EARTH_RADIOUS;
 
 	// static final 타입 상수명(대문자,서로 다른 단어가 혼합된 이름이면 _언더바로 연결) = 초기값을 꼭 지정해야 한다!
-
-	public static void main(String[] args) {
-
-	}
 }
