@@ -16,5 +16,6 @@
 	<classpathentry kind="src" path="08_array"/>
 	<classpathentry kind="src" path="09_method"/>
 	<classpathentry kind="src" path="10_class"/>
+	<classpathentry kind="src" path="11_extends"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

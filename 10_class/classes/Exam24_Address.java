@@ -37,7 +37,7 @@ public class Exam24_Address {
 	}
 
 	public Exam24_Address(String name, String tel, String addr) {
-		super();
+		super(); // 내 자신 클래스가 부모 클래스를 상속받은 자식이라면 부모 클래스의 생성자
 		this.name = name;
 		this.tel = tel;
 		this.addr = addr;
