@@ -17,5 +17,6 @@
 	<classpathentry kind="src" path="09_method"/>
 	<classpathentry kind="src" path="10_class"/>
 	<classpathentry kind="src" path="11_extends"/>
+	<classpathentry kind="src" path="12_abstract"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

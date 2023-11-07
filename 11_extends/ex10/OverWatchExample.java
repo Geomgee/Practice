@@ -120,7 +120,7 @@ public class OverWatchExample {
 		int num = sc.nextInt();
 
 		if (num == 1) {
-			ow = new Mei();
+			ow = new Mei(); // 자동 타입 변환 => 업캐스팅
 		} else if (num == 2) {
 			ow = new Reaper();
 		} else {
