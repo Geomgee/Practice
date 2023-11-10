@@ -1,19 +1,21 @@
 package selfExam;
 
 public class EnglishBook extends Book {
-	String name = "영어관련";
+	private int publishedYear; // 발행연도
+
+	public EnglishBook() {
+		super();
+	}
+
+	public EnglishBook(int code, String title, int publishedYear) {
+		super(code, title);
+		this.publishedYear = publishedYear;
+	}
 
 	@Override
 	void info() {
-		System.out.println(name + " 서적 정보");
+		System.out.println("영어 관련 서적 정보");
+		System.out.println("==============");
+		System.out.println("code : " + getCode() + "\ntitle : " + getTitle() + "\nstock : " + this.publishedYear);
 	}
-
-	@Override
-	void publishedYear(int year) {
-		System.out.println("publishedYear : " + year);
-	}
-
-	@Override
-	void stock(int stock) {
-	};
 }

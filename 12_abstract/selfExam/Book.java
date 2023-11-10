@@ -1,36 +1,30 @@
 package selfExam;
 
 public abstract class Book {
-	public int info;
-	private int code;
-	private String title;
-	public int stock;
+	// 추상 클래스
+	private int code; // 책 코드
+	private String title; // 책 코드
 
-	// 기본 메소드
+	// 추상 메소드
+	abstract void info();
+
 	public Book() {
 		super();
 	}
 
-	abstract void info();
+	public Book(int code, String title) {
+		super();
+		this.code = code;
+		this.title = title;
+	}
 
-	abstract void stock(int stock);
-
-	abstract void publishedYear(int year);
-
+	// getter
 	public int getCode() {
 		return code;
 	}
 
 	public String getTitle() {
 		return title;
-	}
-
-	public void setCode(int code) {
-		this.code = code;
-	}
-
-	public void setTitle(String title) {
-		this.title = title;
 	}
 
 }

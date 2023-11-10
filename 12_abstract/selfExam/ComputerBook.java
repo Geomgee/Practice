@@ -1,20 +1,22 @@
 package selfExam;
 
 public class ComputerBook extends Book {
-	String name = "컴퓨터";
+	private int stock; // 재고
+
+	public ComputerBook() {
+		super();
+	}
+
+	public ComputerBook(int code, String title, int stock) {
+		super(code, title);
+		this.stock = stock;
+	}
 
 	@Override
 	void info() {
-		System.out.println(name + " 서적 정보");
-		System.out.println("===============");
+		System.out.println("컴퓨터 서적 정보");
+		System.out.println("============");
+		System.out.println("code : " + getCode() + "\ntitle : " + getTitle() + "\nstock : " + this.stock);
 	}
 
-	@Override
-	void stock(int stock) {
-		System.out.println("stock : " + stock);
-	}
-
-	@Override
-	void publishedYear(int year) {
-	};
 }
